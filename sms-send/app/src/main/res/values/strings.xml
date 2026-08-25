@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">sms-send</string>
+    <string name="title">sms-send</string>
+    <string name="btn_read">خواندن فایل اکسل</string>
+    <string name="btn_send">ارسال پیام‌ها</string>
+    <string name="btn_receive">ثبت پاسخ‌های دریافت‌شده</string>
+    <string name="summary">این برنامه فایل Excel با چهار ستون شماره موبایل، متن پیام، پاسخ دریافت‌کننده و خطا را می‌خواند، پیامک‌ها را با سیم‌کارت گوشی ارسال می‌کند و پاسخ‌های دریافتی را در همان فایل ثبت می‌کند.</string>
+    <string name="status_ready">آماده</string>
+    <string name="no_file">هنوز فایلی انتخاب نشده است.</string>
+    <string name="table_title">محتویات فایل اکسل</string>
+</resources>
