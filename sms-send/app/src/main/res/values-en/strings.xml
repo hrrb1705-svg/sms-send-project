@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">sms-send</string>
+    <string name="title">sms-send</string>
+    <string name="btn_select_file">Select File</string>
+    <string name="btn_update_file">Update File</string>
+    <string name="btn_save_exit">Save and Exit</string>
+    <string name="btn_send">Send Messages</string>
+    <string name="summary">This app reads an Excel file where column 1 is the user name, column 2 is the mobile number, column 3 is the message text, column 4 is the received reply, column 5 is the status or error, and columns 6 to 14 are ready-made phrases. It sends the messages using the phone\'s SIM card.</string>
+    <string name="status_ready">Ready</string>
+    <string name="no_file">No file has been selected yet.</string>
+    <string name="table_title">Excel File Contents</string>
+    <string name="table_header_username">User Name</string>
+    <string name="table_header_message">Message Text</string>
+    <string name="table_header_reply">Received Reply</string>
+    <string name="table_header_status">Status / Error</string>
+
+    <string name="btn_settings">Settings</string>
+    <string name="settings_title">Settings</string>
+    <string name="language_label">Language</string>
+    <string name="language_farsi">Persian</string>
+    <string name="language_english">English</string>
+
+    <string name="btn_help">Help</string>
+    <string name="guide_title">Usage Guide</string>
+    <string name="dialog_close">Close</string>
+
+    <string name="label_selected_file_format">Selected file: %1$s</string>
+
+    <string name="err_no_file_selected">Please select an Excel file first.</string>
+    <string name="err_file_not_chosen">No file was selected.</string>
+    <string name="err_load_format">Error reading the file: %1$s</string>
+    <string name="status_loaded_format">File loaded. Number of rows: %1$d</string>
+    <string name="msg_file_loaded">File loaded.</string>
+    <string name="err_invalid_phone_format">Invalid mobile number: %1$s</string>
+    <string name="err_empty_template_format">The phrase for digit %1$d in the first row is empty</string>
+    <string name="status_pending_send">Waiting for the send result</string>
+    <string name="status_send_result_format">Send recorded. Queued: %1$d, errors: %2$d</string>
+    <string name="alert_send_result_format">Send recorded.\nQueued: %1$d\nErrors: %2$d</string>
+    <string name="title_send_result">Send Result</string>
+    <string name="err_send_format">Error sending messages: %1$s</string>
+    <string name="err_permissions_denied">SMS send and read permission was not granted.</string>
+    <string name="status_permissions_required">SMS send and read permission is required.</string>
+    <string name="title_error">Error</string>
+</resources>

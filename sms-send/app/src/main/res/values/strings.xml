@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">sms-send</string>
+    <string name="title">sms-send</string>
+    <string name="btn_select_file">انتخاب فایل</string>
+    <string name="btn_update_file">به‌روزرسانی فایل</string>
+    <string name="btn_save_exit">ذخیره و خروج</string>
+    <string name="btn_send">ارسال پیام‌ها</string>
+    <string name="summary">این برنامه فایل Excel را می‌خواند که ستون اول نام کاربر، ستون دوم شماره موبایل، ستون سوم متن پیام، ستون چهارم پاسخ دریافت‌کننده، ستون پنجم وضعیت یا خطا، و ستون‌های ششم تا چهاردهم عبارت‌های آماده هستند. پیامک‌ها را با سیم‌کارت گوشی ارسال می‌کند.</string>
+    <string name="status_ready">آماده</string>
+    <string name="no_file">هنوز فایلی انتخاب نشده است.</string>
+    <string name="table_title">محتویات فایل اکسل</string>
+    <string name="table_header_username">نام کاربر</string>
+    <string name="table_header_message">متن پیام</string>
+    <string name="table_header_reply">پاسخ دریافت‌کننده</string>
+    <string name="table_header_status">خطای احتمالی</string>
+
+    <string name="btn_settings">تنظیمات</string>
+    <string name="settings_title">تنظیمات</string>
+    <string name="language_label">زبان</string>
+    <string name="language_farsi">فارسی</string>
+    <string name="language_english">انگلیسی</string>
+
+    <string name="btn_help">راهنما</string>
+    <string name="guide_title">راهنمای استفاده</string>
+    <string name="dialog_close">بستن</string>
+
+    <string name="label_selected_file_format">فایل انتخاب‌شده: %1$s</string>
+
+    <string name="err_no_file_selected">ابتدا فایل اکسل را انتخاب کنید.</string>
+    <string name="err_file_not_chosen">فایل انتخاب نشد.</string>
+    <string name="err_load_format">خطا در خواندن فایل: %1$s</string>
+    <string name="status_loaded_format">فایل بارگذاری شد. تعداد ردیف‌ها: %1$d</string>
+    <string name="msg_file_loaded">فایل بارگذاری شد.</string>
+    <string name="err_invalid_phone_format">شماره موبایل نامعتبر است: %1$s</string>
+    <string name="err_empty_template_format">عبارت متناظر با عدد %1$d در ردیف اول خالی است</string>
+    <string name="status_pending_send">در انتظار نتیجه ارسال</string>
+    <string name="status_send_result_format">ارسال ثبت شد. در صف: %1$d ، خطا: %2$d</string>
+    <string name="alert_send_result_format">ارسال ثبت شد.\nدر صف: %1$d\nخطا: %2$d</string>
+    <string name="title_send_result">نتیجه ارسال</string>
+    <string name="err_send_format">خطا در ارسال پیام‌ها: %1$s</string>
+    <string name="err_permissions_denied">مجوز ارسال و خواندن پیامک داده نشد.</string>
+    <string name="status_permissions_required">مجوز ارسال و خواندن پیامک لازم است.</string>
+    <string name="title_error">خطا</string>
+</resources>
